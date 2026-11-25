@@ -21,6 +21,19 @@ an order on its own. Paper trading is the default.
 > [github.com/Jakeschincariol/trader-skill](https://github.com/Jakeschincariol/trader-skill).
 > This repo is its day-trading sequel: the Trader skill v2.
 
+## At a glance
+
+```mermaid
+flowchart LR
+    N0["Scan and research"]
+    N1["Plan entry and exit"]
+    N2["Replay and check risk"]
+    N3["User approval"]
+    N4["Paper trading by default"]
+    N0 --> N1 --> N2 --> N3 --> N4
+```
+
+
 ## Install
 
 Paste this into Claude:
